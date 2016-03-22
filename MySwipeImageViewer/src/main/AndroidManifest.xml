@@ -26,7 +26,7 @@
             android:name="com.example.myswipeimageviewer.SlideActivity"
             android:label="@string/title_activity_slide" >
         </activity>
-        <meta-data android:name="net.hockeyapp.android.appIdentifier" android:value="3bd5fc5993ad440381f72d54e646d18b" />
+        <meta-data android:name="net.hockeyapp.android.appIdentifier" android:value="f1381678a4954b258fb322163361567b" />
 
     </application>
 

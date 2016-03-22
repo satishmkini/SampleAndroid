@@ -41,7 +41,7 @@ public class MainActivity extends Activity {
         });
 
         checkForUpdates();
-        LoginManager.register(this, "946be04f40c3f11e64373437d571c4e1", LoginManager.LOGIN_MODE_EMAIL_PASSWORD);
+        LoginManager.register(this, "bfa932837364159cf6747d2140d8040b", LoginManager.LOGIN_MODE_EMAIL_PASSWORD);
         LoginManager.verifyLogin(this, getIntent());
         FeedbackManager.register(this);
 
