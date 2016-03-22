@@ -13,7 +13,7 @@ android {
 
     defaultConfig {
      
-
+        manifestPlaceholders = [HOCKEYAPP_APP_ID: "f1381678a4954b258fb322163361567b"];
         minSdkVersion 15
         targetSdkVersion 22
     }
@@ -23,7 +23,7 @@ android {
 }
 
 dependencies {
-    manifestPlaceholders = [HOCKEYAPP_APP_ID: "f1381678a4954b258fb322163361567b"];
+    
     compile 'com.android.support:support-v4:+'
     compile 'net.hockeyapp.android:HockeySDK:3.7.1'
 }
